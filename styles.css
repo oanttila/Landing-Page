@@ -21,3 +21,46 @@
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.first {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: cen;
+}
+
+.top-section {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.main-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.image {
+    border: 10px;
+    flex: auto;
+}
+
+.sign_up {
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.top-section-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+}
