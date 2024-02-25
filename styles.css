@@ -1,6 +1,10 @@
 * {
     background-color: #1F2937;
-    font-family: 'Roboto' serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.body {
+
 }
 
 .header {
@@ -25,14 +29,15 @@
 .first {
     display: flex;
     justify-content: center;
-    height: 300px;
-    align-items: cen;
+    height: 20em;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .top-section {
     display: flex;
     width: 75%;
-    justify-content: center;
+    justify-content: flex-start
 }
 
 .main-title {
@@ -42,8 +47,10 @@
 }
 
 .image {
-    border: 10px;
+    border: black solid 3px;
     flex: auto;
+    width: 500px;
+    height: auto;
 }
 
 .sign_up {
@@ -52,15 +59,44 @@
     height: 25px;
     color: white;
     border-radius: 10px;
+    border: solid 3px black;
 }
 
 .top-section-left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    border: 3px solid black;
 }
 
 .paragraph {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.information-section {
+    height: auto;
+    background-color: #E5E7EB;
+    border: red solid 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    background-color: #E5E7EB;
+}
+
+.Illustration {
+    width: 300px;
+    height: 300px;
+    border: solid black 3px;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
