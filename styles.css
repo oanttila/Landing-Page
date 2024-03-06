@@ -49,7 +49,7 @@
 .image {
     border: black solid 3px;
     flex: auto;
-    width: 500px;
+    width: 50%;
     height: auto;
 }
 
@@ -59,7 +59,7 @@
     height: 25px;
     color: white;
     border-radius: 10px;
-    border: solid 3px black;
+    border: solid 3px white;
 }
 
 .top-section-left {
@@ -90,13 +90,90 @@
 }
 
 .Illustration {
-    width: 300px;
-    height: 300px;
+    width: 10em;
+    height: 10em;
     border: solid black 3px;
+    border-radius: 10px;
+    background-color: #E5E7EB;
+}
+
+.Illustrations {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .descriptions {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    background-color: #E5E7EB;
+}
+
+.description {
+    background-color: #E5E7EB;
+}
+
+.figure {
+    background-color: #E5E7EB;
+    display: fle
+}
+
+.figcaption {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote-section-background {
+    background-color: lightgray;
+}
+
+.quote-section {
+    background-color: lightgray;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    background-color: lightgray;
+    font-size: large;
+    width: 400px;
+    margin: 40px;
+}
+
+.sign-up-section {
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: white;
+}
+
+.sign-up-text {
+    background-color: #3882f6;
+    color: white;
+}
+
+.sign-up-texts {
+    background-color:#3882f6
 }
